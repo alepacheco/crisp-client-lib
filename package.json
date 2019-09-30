@@ -4,7 +4,7 @@
   "description": "Crisp chat client library for javascript",
   "main": "lib/index.js",
   "scripts": {
-    "prepublish": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
+    "prepublish": "babel src --out-dir lib"
   },
   "babel": {
     "presets": ["es2015"]
